@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html>
+ <head>
+<meta charset="utf-8">
+ <title>Numeros primos</title>
+ <script type="text/javascript">
+		
+		var num=parseInt(prompt('Introduzca un numero', ''));
+		var contador = 0;
+		var numPrimo = false;
+		
+		while(numPrimo = true){
+				
+					if (num == 1 || num == 2 || num % 2 != 0){
+						alert('El numero ' +num+ ' es primo'); 
+						contador++;
+						numPrimo = true;
+						num=parseInt(prompt('Introduzca un numero', ''));
+						
+						}else{
+							alert('El numero ' +num+ ' no es primo');
+							alert('Fallaste el numero ' +num+' no es primo. \n Acertaste un total de ' +contador+ ' numeros primos');ç
+							
+						}
+				
+			}
+ </script>
+ </head>
+ <body></body>
+ </html>
